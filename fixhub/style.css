@@ -1,0 +1,398 @@
+/* Base styles */
+body {
+  /* Black background */
+    color: #ffffff;
+  /* White text */
+    font-family: Arial, sans-serif;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* Dark purple */
+  padding: 20px 10%;
+  align-items: center;
+  background-color: #2c0e57;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  border-radius: 20%;
+  height: 50px;
+}
+
+.title {
+  height: 40px;
+  margin-bottom: 5px;
+  margin-right: 500px;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 20px;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+nav a:hover {
+  /* Light purple on hover */;
+  color: #9a6dff;
+}
+
+.main-content {
+  padding: 100px 10%;
+  text-align: center;
+}
+
+h1 {
+  color: #9a6dff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #563e78, #2c0e57);
+  color: #121212;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+.get-started-btn:hover {
+  /* Glow effect */
+    transform: translateY(-3px);
+  /* Lighter gradient on hover */
+    box-shadow: 0 0 15px rgba(154, 109, 255, 0.6);
+  /* Slight lift on hover */;
+  background: linear-gradient(135deg, #b185ff, #925be0);
+}
+
+.get-started-btn:active {
+  /* Return to original position when clicked */;
+  transform: translateY(0);
+}
+
+
+.goto-submit-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #563e78, #2c0e57);
+    color: #121212;
+    padding: 10px 24px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-left:15px;
+    width: 5%;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+.goto-submit-btn:hover {
+  /* Glow effect */
+    transform: translateY(-3px);
+  /* Lighter gradient on hover */
+    box-shadow: 0 0 15px rgba(154, 109, 255, 0.6);
+  /* Slight lift on hover */;
+  background: linear-gradient(135deg, #b185ff, #925be0);
+}
+
+.goto-submit-btn:active {
+  /* Return to original position when clicked */;
+  transform: translateY(0);
+}
+
+.submit-btn {
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  background: linear-gradient(135deg, #563e78, #2c0e57);
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 25px;
+  text-decoration: none;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  /* Glow effect */
+    transform: translateY(-3px);
+  /* Lighter gradient on hover */
+    box-shadow: 0 0 15px rgba(154, 109, !	255, 0.6);
+  /* Slight lift on hover */;
+  background: linear-gradient(135deg, #b185ff, #925be0);
+}
+
+.submit-btn:active {
+  /* Return to original position when clicked */;
+  transform: translateY(0);
+}
+
+footer {
+  background-color: #2c0e57;
+  bottom: 0;
+  font-size: 0.9rem;
+  padding: 15px 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+body {
+  /* Black background */
+    color: #ffffff;
+  /* White text */
+    font-family: Arial, sans-serif;
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+}
+
+.hacktivity-section {
+  padding: 50px 10%;
+  text-align: center;
+}
+
+/* Search bar container */
+.search-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search-container input {
+  background-color: #1e1e1e;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #9a6dff;
+  color: #ffffff;
+  padding: 10px;
+  width: 50%;
+}
+
+.search-container button {
+  /* Gradient purple */
+    border: none;
+  background: linear-gradient(135deg, #563e78, #2c0e57);
+  border-radius: 0 5px 5px 0;
+  color: #121212;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+  background-color: #7a4edb;
+}
+
+.vuln-item {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  border: 1px solid #9a6dff;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.vuln-item:hover {
+  transform: translateY(-5px);
+}
+
+.vuln-title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.vuln-meta {
+  color: #b0b0b0;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.vuln-description {
+  color: #d0d0d0;
+  font-size: 1rem;
+}
+
+.vuln-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.search-icon {
+  height: 17px;
+}
+
+.report-section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+form {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+input, textarea, select {
+  background-color: #333333;
+  border-radius: 5px;
+  border: 1px solid #555555;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+}
+
+textarea {
+  /* Adjust width to prevent overflow */
+    height: 300px;
+  box-sizing: border-box;
+  padding: 10px;
+  resize: vertical;
+  width: calc(100% - 20px);
+}
+
+/* Styles for the details container */
+.details-container {
+  /* Added left padding */
+    background-color: #1e1e1e;
+  /* Small left margin for alignment */
+    box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #9a6dff;
+  margin-left: 10px;
+  padding: 20px 10px 10px 20px;
+  position: relative;
+}
+
+.toggle-btn {
+  background-color: #9a6dff;
+  border-radius: 5px;
+  border: none;
+  color: #121212;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transition: background-color 0.3s;
+}
+
+.toggle-btn:hover {
+  background-color: #7a4edb;
+}
+
+.preview-section {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  color: #ffffff;
+  display: none;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+
+.contact-section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+input, textarea {
+  background-color: #333333;
+  border-radius: 5px;
+  border: 1px solid #555555;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  border-color: #9a6dff;
+  outline: none;
+}
+
+/* Profile dropdown container */
+.profile-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Hidden dropdown content */
+.dropdown-content {
+    display: none;  /* Hidden by default */
+    position: absolute;
+    top: 100%;  /* Positions it below the icon */
+    right: 0;   /* Aligns it to the right of the icon */
+    background-color: #2c0e57;  /* Dark purple background */
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    min-width: 150px; /* Ensures the dropdown box is wide enough to contain the buttons */
+    padding: 0;  /* Remove padding from the container */
+}
+
+/* Dropdown links styling */
+.dropdown-content a {
+    color: #ffffff;
+    padding: 10px;  /* Uniform padding for better hover effect */
+    text-decoration: none;
+    display: block;  /* Ensures each link takes up the full width */
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+    background-color: #6b4cb2;  /* Light purple on hover */
+}
+
+/* Show dropdown when hovering over profile icon */
+.profile-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for the profile icon */
+.profile-icon .icon {
+    height: 30px; /* Adjust the icon size */
+    width: 30px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: opacity 0.3s;
+    vertical-align: middle;
+}
+
+.profile-icon:hover .icon {
+    opacity: 0.6; /* Slight fade effect on hover */
+}
